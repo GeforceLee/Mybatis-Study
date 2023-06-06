@@ -27,7 +27,7 @@
 
     <!-- 自定义特殊包的日志级别 -->
     <logger name="com.netflix.discovery.DiscoveryClient" level="warn"/>
-    <root level="info">
+    <root level="debug">
         <appender-ref ref="console"/>
         <appender-ref ref="rollingFile"/>
     </root>
